@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input-box {
+  font-size: 1.4rem;
+  padding: 20px 6cqmin 20px 10px; /* Extra right padding for the icon */
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0px 8px rgba(255, 255, 255, 0.3);
+  background: #1e1e1e;
+  color: #f1f1f1;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f1f1f1;
+  /* pointer-events: none; allows clicks to go through to input */
+  font-size: 1.4rem;
+  cursor: pointer;
+}
